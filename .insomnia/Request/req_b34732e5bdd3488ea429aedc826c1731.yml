@@ -1,0 +1,31 @@
+_id: req_b34732e5bdd3488ea429aedc826c1731
+type: Request
+parentId: fld_c7fdcabb514b4582bae72517189d3c4b
+modified: 1663748678615
+created: 1663748554597
+url: "{{ _.route }}users/{id}"
+name: EditUser
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {"isActive": true,
+     "mail": "Dante@hotmail.com",
+     "image": 1,
+     "password": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663736699799.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

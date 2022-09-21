@@ -1,0 +1,21 @@
+_id: req_8e3ce86ab6f74d75a07008d509dded2d
+type: Request
+parentId: fld_c7fdcabb514b4582bae72517189d3c4b
+modified: 1663748718709
+created: 1663736474809
+url: "{{ _.route }}users/login/{email}"
+name: LoginUser
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663736699787
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

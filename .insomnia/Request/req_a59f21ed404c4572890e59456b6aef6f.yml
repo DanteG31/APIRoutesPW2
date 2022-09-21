@@ -1,0 +1,32 @@
+_id: req_a59f21ed404c4572890e59456b6aef6f
+type: Request
+parentId: fld_c7fdcabb514b4582bae72517189d3c4b
+modified: 1663748623479
+created: 1663736699812
+url: "{{ _.route }}users/"
+name: CreateUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"isActive": true,
+    "name" : "DanteG31",
+     "mail": "Dante@hotmail.com",
+     "image": 1,
+     "password": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663736699812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

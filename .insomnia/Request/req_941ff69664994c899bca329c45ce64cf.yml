@@ -1,0 +1,26 @@
+_id: req_941ff69664994c899bca329c45ce64cf
+type: Request
+parentId: fld_c7fdcabb514b4582bae72517189d3c4b
+modified: 1663748613470
+created: 1663748603575
+url: "{{ _.route }}users/1"
+name: DeleteUser
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663736699805.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

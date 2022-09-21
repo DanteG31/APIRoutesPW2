@@ -1,0 +1,32 @@
+_id: req_559b3685feee4a6c81313734c9851462
+type: Request
+parentId: fld_c7fdcabb514b4582bae72517189d3c4b
+modified: 1663748697731
+created: 1663748580469
+url: "{{ _.route }}users/{id}"
+name: EditUserComplete
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {"isActive": true,
+    "name" : "DanteG31",
+     "mail": "Dante@hotmail.com",
+     "image": 1,
+     "password": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663736699793.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
