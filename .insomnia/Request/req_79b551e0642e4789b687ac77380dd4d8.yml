@@ -1,0 +1,21 @@
+_id: req_79b551e0642e4789b687ac77380dd4d8
+type: Request
+parentId: fld_70c093bd434f46caa7929be23f6019a9
+modified: 1663842209691
+created: 1663841763734
+url: "{{ _.route }}groups/"
+name: GetGroups
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663841763734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

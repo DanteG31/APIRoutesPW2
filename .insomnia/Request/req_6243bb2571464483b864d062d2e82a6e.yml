@@ -1,0 +1,21 @@
+_id: req_6243bb2571464483b864d062d2e82a6e
+type: Request
+parentId: fld_70c093bd434f46caa7929be23f6019a9
+modified: 1663845944054
+created: 1663845935655
+url: "{{ _.route }}groups/0/quests"
+name: GetGroupQuests
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663771912686.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
