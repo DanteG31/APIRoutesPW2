@@ -1,27 +1,25 @@
-_id: req_b34732e5bdd3488ea429aedc826c1731
+_id: req_30ec1c3501b142ee9de32d9eb06cda37
 type: Request
-parentId: fld_c7fdcabb514b4582bae72517189d3c4b
-modified: 1663904962468
-created: 1663748554597
-url: "{{ _.route }}users/{id}"
-name: EditUser
+parentId: fld_db233119a3e24e94aee53da7c527e150
+modified: 1663907951900
+created: 1663907812639
+url: "{{ _.route }}/achievements/0"
+name: EditAchievement
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
-    {"isActive": true,
-     "mail": "Dante@hotmail.com",
-     "image": 1,
-     "password": "1234"
+    {
+    	"isActive": false
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+    id: pair_2cb8948ae0bc4fd695ccf765d5b1d094
 authentication: {}
-metaSortKey: -1663736699799.5
+metaSortKey: -1663857756899.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

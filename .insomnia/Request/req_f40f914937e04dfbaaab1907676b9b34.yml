@@ -1,17 +1,17 @@
-_id: req_1805af19e5ab4e81a833c3a200ef232a
+_id: req_f40f914937e04dfbaaab1907676b9b34
 type: Request
-parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663904426219
-created: 1663899272229
-url: "{{ _.route }}groups/{id}/members"
-name: GetGroupMembers
+parentId: fld_db233119a3e24e94aee53da7c527e150
+modified: 1663907982174
+created: 1663907967177
+url: "{{ _.route }}achievements/0"
+name: DeleteAchievement
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1663771912661.5
+metaSortKey: -1663873750089.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

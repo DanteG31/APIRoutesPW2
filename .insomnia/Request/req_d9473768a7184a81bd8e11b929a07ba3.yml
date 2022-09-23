@@ -1,25 +1,27 @@
-_id: req_30b440eb354a451ab80d93d49782ccae
+_id: req_d9473768a7184a81bd8e11b929a07ba3
 type: Request
-parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663905146208
-created: 1663892583994
-url: "{{ _.route }}groups/{id}/members/{id}"
-name: AddGroupMember
+parentId: fld_db233119a3e24e94aee53da7c527e150
+modified: 1663907953080
+created: 1663907019698
+url: "{{ _.route }}/achievements/"
+name: CreateAchievement
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"role": "Trabajador"
+    	"isActive": true,
+    	"name": "Logro de prueba",
+    	"desc": "Este es un logro de prueba"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ace160372de84d25b5c1f1befbe46220
+    id: pair_2cb8948ae0bc4fd695ccf765d5b1d094
 authentication: {}
-metaSortKey: -1663766091728.375
+metaSortKey: -1663873750064.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

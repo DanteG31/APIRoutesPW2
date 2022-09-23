@@ -1,9 +1,9 @@
 _id: req_4465aef57bfc49eaadfc6b95d8a623a4
 type: Request
 parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663901638076
+modified: 1663905157080
 created: 1663901513872
-url: "{{ _.route }}groups/0/members/73"
+url: "{{ _.route }}groups/{id}/members/{id}"
 name: EditGroupMemberRole
 description: ""
 method: PATCH

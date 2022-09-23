@@ -1,28 +1,22 @@
-_id: req_559b3685feee4a6c81313734c9851462
+_id: req_672459a38acd412e9e5a5921c4d7bee3
 type: Request
-parentId: fld_c7fdcabb514b4582bae72517189d3c4b
-modified: 1663904985077
-created: 1663748580469
-url: "{{ _.route }}users/{id}"
-name: EditUserComplete
+parentId: fld_70c093bd434f46caa7929be23f6019a9
+modified: 1663905171545
+created: 1663904477121
+url: "{{ _.route }}groups/{id}/members/{id}"
+name: DeleteGroupMember
 description: ""
-method: PUT
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {"isActive": true,
-    "name" : "DanteG31",
-     "mail": "Dante@hotmail.com",
-     "image": 1,
-     "password": "1234"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
 authentication: {}
-metaSortKey: -1663736699793.25
+metaSortKey: -1663751539433.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
