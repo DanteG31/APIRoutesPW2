@@ -1,17 +1,19 @@
-_id: req_4465aef57bfc49eaadfc6b95d8a623a4
+_id: req_693f33f3207a462da1f357b49f09424c
 type: Request
 parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663914709125
-created: 1663901513872
-url: "{{ _.route }}groups/{id}/members/{id}"
-name: EditGroupMemberRole
+modified: 1663918134465
+created: 1663917699579
+url: "{{ _.route }}groups/1/quests"
+name: CreateGroupQuest
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"role": "Trabajador"
+    	"name": "Quest test",
+    	"start": "2022-10-21",
+    	"end": "2022-10-22"
     }
 parameters: []
 headers:
@@ -19,7 +21,7 @@ headers:
     value: application/json
     id: pair_ace160372de84d25b5c1f1befbe46220
 authentication: {}
-metaSortKey: -1663763181274.3125
+metaSortKey: -1663764636501.3438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

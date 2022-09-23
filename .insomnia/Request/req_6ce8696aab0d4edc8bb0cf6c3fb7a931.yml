@@ -1,25 +1,22 @@
-_id: req_4465aef57bfc49eaadfc6b95d8a623a4
+_id: req_6ce8696aab0d4edc8bb0cf6c3fb7a931
 type: Request
 parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663914709125
-created: 1663901513872
-url: "{{ _.route }}groups/{id}/members/{id}"
-name: EditGroupMemberRole
+modified: 1663919172089
+created: 1663918978331
+url: "{{ _.route }}groups/{id}/quests/{id}"
+name: DeleteGroupQuest
 description: ""
-method: PATCH
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"role": "Trabajador"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ace160372de84d25b5c1f1befbe46220
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
 authentication: {}
-metaSortKey: -1663763181274.3125
+metaSortKey: -1663750084218.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
