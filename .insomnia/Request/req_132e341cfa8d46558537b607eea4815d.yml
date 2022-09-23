@@ -1,0 +1,21 @@
+_id: req_132e341cfa8d46558537b607eea4815d
+type: Request
+parentId: fld_1bc41b40497d47c8887fb6176dce998c
+modified: 1663923651695
+created: 1663923365394
+url: "{{ _.route }}/quests/{id}"
+name: DeleteQuest
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663917339376
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

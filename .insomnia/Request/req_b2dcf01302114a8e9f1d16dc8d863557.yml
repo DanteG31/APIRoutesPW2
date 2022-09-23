@@ -1,0 +1,32 @@
+_id: req_b2dcf01302114a8e9f1d16dc8d863557
+type: Request
+parentId: fld_1bc41b40497d47c8887fb6176dce998c
+modified: 1663923255178
+created: 1663922667950
+url: "{{ _.route }}quests/"
+name: CreateQuest
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "name" : "Quest de prueba",
+     "desc": "Esto es una quest de prueba",
+     "start": "2022-10-09",
+     "end": "2022-10-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663922200055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_127e45724a9544c5b9d54d6cd0852d5e
+type: Request
+parentId: fld_1bc41b40497d47c8887fb6176dce998c
+modified: 1663923258145
+created: 1663923192435
+url: "{{ _.route }}quests/{id}"
+name: EditQuest
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "name" : "Quest de prueba",
+     "desc": "Esto es una quest de prueba",
+     "start": "2022-10-09",
+     "end": "2022-10-10",
+    	"isEnded": false,
+    	"isActive": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+authentication: {}
+metaSortKey: -1663917339426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
