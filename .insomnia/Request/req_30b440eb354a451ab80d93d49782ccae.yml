@@ -1,22 +1,25 @@
-_id: req_941ff69664994c899bca329c45ce64cf
+_id: req_30b440eb354a451ab80d93d49782ccae
 type: Request
-parentId: fld_c7fdcabb514b4582bae72517189d3c4b
-modified: 1663898296342
-created: 1663748603575
-url: "{{ _.route }}users/{id}"
-name: DeleteUser
+parentId: fld_70c093bd434f46caa7929be23f6019a9
+modified: 1663901109428
+created: 1663892583994
+url: "{{ _.route }}groups/{id}/members/{id}"
+name: AddGroupMember
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"role": "Trabajador"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_e3c11c87dfd348dfb8d53dc1704ae3c2
+    id: pair_ace160372de84d25b5c1f1befbe46220
 authentication: {}
-metaSortKey: -1663736699805.75
+metaSortKey: -1663766091728.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

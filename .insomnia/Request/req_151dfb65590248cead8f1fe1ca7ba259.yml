@@ -1,0 +1,30 @@
+_id: req_151dfb65590248cead8f1fe1ca7ba259
+type: Request
+parentId: fld_70c093bd434f46caa7929be23f6019a9
+modified: 1663900463869
+created: 1663882309704
+url: "{{ _.route }}groups/{id}"
+name: EditGroup
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Grupo de prueba 1",
+    	"desc": "Este es un grupo de prueba"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9f13c21731be46d78d7596a79abef473
+authentication: {}
+metaSortKey: -1663760270820.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

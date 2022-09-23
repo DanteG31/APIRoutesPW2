@@ -1,17 +1,17 @@
-_id: req_6243bb2571464483b864d062d2e82a6e
+_id: req_1805af19e5ab4e81a833c3a200ef232a
 type: Request
 parentId: fld_70c093bd434f46caa7929be23f6019a9
-modified: 1663893870570
-created: 1663845935655
-url: "{{ _.route }}groups/{id}/quests"
-name: GetGroupQuests
+modified: 1663900844102
+created: 1663899272229
+url: "{{ _.route }}groups/{id}/members"
+name: GetGroupMembers
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1663771912686.5
+metaSortKey: -1663771912661.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
