@@ -1,7 +1,7 @@
 _id: req_d9473768a7184a81bd8e11b929a07ba3
 type: Request
 parentId: fld_db233119a3e24e94aee53da7c527e150
-modified: 1663907953080
+modified: 1663921848090
 created: 1663907019698
 url: "{{ _.route }}/achievements/"
 name: CreateAchievement
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"isActive": true,
-    	"name": "Logro de prueba",
+    	"name": "Logro de prueba aaaaa",
     	"desc": "Este es un logro de prueba"
     }
 parameters: []
