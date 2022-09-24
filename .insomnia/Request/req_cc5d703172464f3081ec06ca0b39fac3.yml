@@ -1,9 +1,9 @@
 _id: req_cc5d703172464f3081ec06ca0b39fac3
 type: Request
 parentId: fld_74f2f26693f44cc482558f1dbee4f54a
-modified: 1663985920805
+modified: 1663998976756
 created: 1663982013170
-url: "{{ _.route }}objectives/1"
+url: "{{ _.route }}objectives/{id}"
 name: EditObjective
 description: ""
 method: PATCH

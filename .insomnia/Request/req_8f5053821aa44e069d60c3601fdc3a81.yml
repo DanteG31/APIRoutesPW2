@@ -1,9 +1,9 @@
 _id: req_8f5053821aa44e069d60c3601fdc3a81
 type: Request
 parentId: fld_9009f5580918452fafd3d64ea23bf462
-modified: 1663925014669
+modified: 1663999004544
 created: 1663913572501
-url: "{{ _.route }}RateMembers/users/4"
+url: "{{ _.route }}RateMembers/users/{id}"
 name: CreateRateMemberById
 description: ""
 method: POST

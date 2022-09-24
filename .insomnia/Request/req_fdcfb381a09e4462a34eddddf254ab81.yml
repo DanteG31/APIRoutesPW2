@@ -1,7 +1,7 @@
 _id: req_fdcfb381a09e4462a34eddddf254ab81
 type: Request
 parentId: fld_74f2f26693f44cc482558f1dbee4f54a
-modified: 1663992761692
+modified: 1663998974175
 created: 1663990923134
 url: "{{ _.route }}objectives/lists/{id}"
 name: CreateObjective
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "objetivo agregado",
+    	"name": "Objetivo agregado",
     	"participants": 1,
     	"desc": "Este es un objetivo agregado ",
-    	"rol": "fron-end",
+    	"rol": "front-end",
     	"priority":10,
     	"progress":5,
     	"start": "2022-10-09",

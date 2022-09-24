@@ -1,9 +1,9 @@
 _id: req_651620e41d7449e6af1f0e1f96c03901
 type: Request
 parentId: fld_74f2f26693f44cc482558f1dbee4f54a
-modified: 1663983152119
+modified: 1663998930114
 created: 1663979742591
-url: "{{ _.route }}objectives/"
+url: "{{ _.route }}objectives/{id}"
 name: GetObjectivesById
 description: ""
 method: GET
