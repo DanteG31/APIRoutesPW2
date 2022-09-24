@@ -1,0 +1,21 @@
+_id: req_ea346c2514bb4aef8c7d349fa29189ad
+type: Request
+parentId: fld_1bc41b40497d47c8887fb6176dce998c
+modified: 1663969229257
+created: 1663968004152
+url: "{{ _.route }}/quests/{id}/lists"
+name: GetListsOfaQuestById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663922200080
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

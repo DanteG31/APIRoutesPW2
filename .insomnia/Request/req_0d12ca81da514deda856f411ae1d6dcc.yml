@@ -1,0 +1,21 @@
+_id: req_0d12ca81da514deda856f411ae1d6dcc
+type: Request
+parentId: fld_9811c17dd9a745daa07a776638d52f14
+modified: 1663986374708
+created: 1663984544364
+url: "{{ _.route }}lists/{id}/objectives/{id}"
+name: AddObjective
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663739682022.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

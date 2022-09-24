@@ -1,0 +1,21 @@
+_id: req_877e3acfb9aa4b49a2cb11258c305a39
+type: Request
+parentId: fld_74f2f26693f44cc482558f1dbee4f54a
+modified: 1663983926562
+created: 1663983288635
+url: "{{ _.route }}/objectives/{id}"
+name: DeleteObjective
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663922200105
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

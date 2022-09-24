@@ -1,0 +1,29 @@
+_id: req_8f5053821aa44e069d60c3601fdc3a81
+type: Request
+parentId: fld_9009f5580918452fafd3d64ea23bf462
+modified: 1663925014669
+created: 1663913572501
+url: "{{ _.route }}RateMembers/users/4"
+name: CreateRateMemberById
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"score":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91216e8cdc7d4ec1ae3ba6768396995f
+authentication: {}
+metaSortKey: -1663909489610.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

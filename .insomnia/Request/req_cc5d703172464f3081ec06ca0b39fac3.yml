@@ -1,0 +1,32 @@
+_id: req_cc5d703172464f3081ec06ca0b39fac3
+type: Request
+parentId: fld_74f2f26693f44cc482558f1dbee4f54a
+modified: 1663985920805
+created: 1663982013170
+url: "{{ _.route }}objectives/1"
+name: EditObjective
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Grupo de prueba 1",
+    	"desc": "Este es un grupo de prueba",
+    	"rol":"front-end",
+    	"progress":"2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9f13c21731be46d78d7596a79abef473
+authentication: {}
+metaSortKey: -1663920984847.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

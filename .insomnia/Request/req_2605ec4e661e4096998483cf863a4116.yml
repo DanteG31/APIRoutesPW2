@@ -1,0 +1,21 @@
+_id: req_2605ec4e661e4096998483cf863a4116
+type: Request
+parentId: fld_9811c17dd9a745daa07a776638d52f14
+modified: 1663965322081
+created: 1663964933358
+url: "{{ _.route }}lists/{id}"
+name: DeleteList
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663739682035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

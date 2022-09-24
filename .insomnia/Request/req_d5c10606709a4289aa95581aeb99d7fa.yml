@@ -1,0 +1,21 @@
+_id: req_d5c10606709a4289aa95581aeb99d7fa
+type: Request
+parentId: fld_74f2f26693f44cc482558f1dbee4f54a
+modified: 1663989771006
+created: 1663988788454
+url: "{{ _.route }}/objectives/{id}/participants/{id}"
+name: DeleteObjevtiveParticipants
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663922200092.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

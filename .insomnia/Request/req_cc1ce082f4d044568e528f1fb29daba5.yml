@@ -1,0 +1,21 @@
+_id: req_cc1ce082f4d044568e528f1fb29daba5
+type: Request
+parentId: fld_9811c17dd9a745daa07a776638d52f14
+modified: 1663964474212
+created: 1663960718772
+url: "{{ _.route }}/lists"
+name: GetLists
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663742664408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

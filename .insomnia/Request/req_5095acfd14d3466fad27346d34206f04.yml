@@ -1,0 +1,29 @@
+_id: req_5095acfd14d3466fad27346d34206f04
+type: Request
+parentId: fld_9811c17dd9a745daa07a776638d52f14
+modified: 1663990287340
+created: 1663962654831
+url: "{{ _.route }}lists/quests/{id}"
+name: CreateList
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "to do"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9f13c21731be46d78d7596a79abef473
+authentication: {}
+metaSortKey: -1663739682060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_fdcfb381a09e4462a34eddddf254ab81
+type: Request
+parentId: fld_74f2f26693f44cc482558f1dbee4f54a
+modified: 1663992761692
+created: 1663990923134
+url: "{{ _.route }}objectives/lists/{id}"
+name: CreateObjective
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "objetivo agregado",
+    	"participants": 1,
+    	"desc": "Este es un objetivo agregado ",
+    	"rol": "fron-end",
+    	"priority":10,
+    	"progress":5,
+    	"start": "2022-10-09",
+     "end": "2022-10-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9f13c21731be46d78d7596a79abef473
+authentication: {}
+metaSortKey: -1663921592476.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

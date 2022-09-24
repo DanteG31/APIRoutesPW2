@@ -1,0 +1,21 @@
+_id: req_651620e41d7449e6af1f0e1f96c03901
+type: Request
+parentId: fld_74f2f26693f44cc482558f1dbee4f54a
+modified: 1663983152119
+created: 1663979742591
+url: "{{ _.route }}objectives/"
+name: GetObjectivesById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663920984897.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
